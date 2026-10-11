@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "如果你在研究或产品中使用了本评估集，请引用本条目。"
+title: "CNEC-Evalset v0.1: 中文电商客服 Agent 评估集（公开版 10 题）"
+abstract: >-
+  一套针对中文电商客服场景的 Agent 能力垂直评估集。完整版 50 题覆盖售前、售后、
+  多轮上下文、对抗输入、工具调用五大板块 12 个子类，0-2 分制 rubric，
+  经红队对抗筛选（初稿 68 题淘汰 18 题）。本仓库为公开版 10 题（各代表性子类
+  最难一题，全部难度 3 级）；完整版 held-out 不下发，以托管形式评估。
+authors:
+  - family-names: "CNEC"
+    given-names: "Evalset Team"
+version: "0.1"
+date-released: "2026-10-09"
+license: CC-BY-NC-4.0
+repository-code: "https://github.com/<你的用户名>/cnec-evalset"
+keywords:
+  - 中文评估集
+  - 电商客服
+  - Agent evaluation
+  - LLM-as-judge
+  - 垂直评估
+type: dataset
